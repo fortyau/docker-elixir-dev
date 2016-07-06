@@ -28,4 +28,3 @@ ONBUILD ENV MIX_ENV prod
 ONBUILD COPY mix.* /usr/src/app/
 ONBUILD COPY config /usr/src/app/
 ONBUILD RUN mix do deps.get, deps.compile
-
